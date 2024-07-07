@@ -32,7 +32,7 @@ async function renderCard() {
       const card = document.createElement("div");
       card.classList.add("card");
       card.innerHTML = `
-        <a href="/phim-nha-lam/watch?slug=${item.slug}">
+        <a href="/watch?slug=${item.slug}">
           <img src="${item.poster_url}" alt="${item.origin_name}" />
           <div class="card-content">
             <h4>${item.name}</h2>
