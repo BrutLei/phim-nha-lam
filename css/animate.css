@@ -1,0 +1,23 @@
+/* Spinner styling */
+.spinner {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: calc(50% - 15px); /* Half of width and height (15px / 2 = 7.5px) */
+  left: calc(50% - 15px); /* Half of width and height (15px / 2 = 7.5px) */
+  transform: translate(-50%, -50%);
+}
+
+/* Spinner animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

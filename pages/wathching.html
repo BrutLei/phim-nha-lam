@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phim nhà làm</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="../assets/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="../assets/fontawesome/css/solid.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="navbar-content">
+          <button class="navbar-toggler">&#9776;</button>
+          <div class="site-title">
+            <h1>
+              <a class="logo" href="/" rel="home">
+                <img
+                  src="/assets/img/black-netflix-logo-png-4.png"
+                  alt="Phim nhà làm logo"
+                  height="50"
+                />
+              </a>
+            </h1>
+          </div>
+          <div class="search-bar">
+            <input type="text" placeholder="Tìm kiếm phim" />
+            <button>
+              <i class="fa-solid fa-search"></i>
+            </button>
+          </div>
+          <div class="login-btn">
+            <button>
+              <i class="fa-solid fa-user" style="color: #ffffff"></i>
+            </button>
+            <span>Đăng nhập</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <aside>
+        <div class="menu-container">
+          <div class="menu-bar-toggler container">
+            <button class="menu-toggler-btn">&#129171;</button>
+            <ul style="display: none">
+              <li>
+                <a href="#"> Trang chủ </a>
+              </li>
+              <li>
+                <a href="#"> Phim lẻ </a>
+              </li>
+              <li>
+                <a href="#"> Phim bộ </a>
+              </li>
+              <li>
+                <a href="#"> Hoạt hình </a>
+              </li>
+              <li>
+                <a href="#"> TV Shows </a>
+              </li>
+            </ul>
+          </div>
+          <span
+            style="border: #ffffff 1px solid; width: 90%; display: block"
+          ></span>
+          <div class="menu-bar container">
+            <ul>
+              <li>
+                <a href="#"> Trang chủ </a>
+              </li>
+              <li>
+                <a href="#"> Phim lẻ </a>
+              </li>
+              <li>
+                <a href="#"> Phim bộ </a>
+              </li>
+              <li>
+                <a href="#"> Hoạt hình </a>
+              </li>
+              <li>
+                <a href="#"> TV Shows </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <section class="container">
+        <div class="content-container">
+          <div class="video" style="width: 100%; padding: 50px">
+            <video id="video" width="100%" height="auto" controls></video>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"
+      integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="../js/watching.js"></script>
+  </body>
+</html>
